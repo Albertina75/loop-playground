@@ -9,6 +9,35 @@
  *
  */
 
-let mes = 4;
+
 
 // Escribir tu código a partir de aquí
+let mes = 4;
+let trimestre;
+
+switch (mes) {
+    case 1:
+        case 2:
+            case 3:
+                trimestre ='primer trimestre';
+                break;
+    case 4:
+        case 5:
+            case 6:
+                trimestre ='segundo trimestre';
+                break;
+    case 7:
+        case 8:
+            case 9:
+                trimestre = 'tercer trimestre';
+                break;
+    case 10:
+        case 11:
+            case 12:
+                trimestre ='cuarto trimestre';
+                break;
+default:
+    trimestre = 'mes no válido';
+
+}
+console.log('Nos enconramos en el ' + trimestre);
