@@ -10,13 +10,21 @@
  */
 
 let numeroFinal = 5;
+let ultimoValor;
 
 for (var i = -5; i < numeroFinal; i++) {
   console.log("Voy a ejecutar el condicional para el número: " + i);
-  // Modificar a partir de aquí
-  console.log("Soy un número positivo!");
-  console.log("Soy un núemro negativo!");
+  if (i > 0) {
+    console.log("Soy un número positivo!");
+  }
+  
+  else {
+    console.log("Soy un núemro negativo!");
+  }
 }
+// Modificar a partir de aquí
+
+
 
 /**
  * Resultado esperado: https://oscarm.tinytake.com/msc/ODc4MzYyNF8yMjIwMzg1OA
